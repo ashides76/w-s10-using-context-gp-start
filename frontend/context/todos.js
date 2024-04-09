@@ -66,7 +66,7 @@ export function TodosProvider(props) {
     }
     return (
         <TodosContext.Provider value={dataToProvide}>
-            {props.childern}
+            {props.children}
         </TodosContext.Provider>
     )
 }

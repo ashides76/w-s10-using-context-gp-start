@@ -16,7 +16,7 @@ export default function Todo(props) {
     toggleTodo,
     showCompletedTodos,
     toggleShowCompletedTodos
-  } = props
+  } = useContext(TodosContext)
 
   return (
     <div id="todos">
