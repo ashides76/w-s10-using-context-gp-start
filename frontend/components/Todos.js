@@ -7,7 +7,7 @@ const StyledTodo = styled.li`
   cursor: pointer;
 `
 
-export default function Todo(props) {
+export default function Todo() {
   const data = useContext(TodosContext)
   console.log(data)
 

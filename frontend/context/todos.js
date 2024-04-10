@@ -1,9 +1,5 @@
 import React, { createContext, useReducer } from "react";
 
-// const dataToProvide = {
-//     favoriteBand: 'Iron Maiden'
-// }
-
 export const TodosContext = createContext();
 
 const TOGGLE_SHOW_COMPLETED_TODOS = 'TOGGLE_SHOW_COMPLETED_TODOS'
